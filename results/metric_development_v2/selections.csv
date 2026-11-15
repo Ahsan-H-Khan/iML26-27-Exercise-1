@@ -1,0 +1,13 @@
+dataset,seed,split_id,selector,model,status,validation_balanced_accuracy,validation_csc
+iris,42,0779b398189f7fa4,minimum_csc,dt_d2,selected,0.9743589743589745,3.2428572375632614
+iris,42,0779b398189f7fa4,accuracy_only,dt_d2,selected,0.9743589743589745,3.2428572375632614
+iris,1337,ea4b3e66ce0e62ef,minimum_csc,rf_n5_d2,selected,0.9743589743589745,7.65425901666115
+iris,1337,ea4b3e66ce0e62ef,accuracy_only,rf_n5_d2,selected,0.9743589743589745,7.65425901666115
+iris,2026,cd8dec4bf428e22e,minimum_csc,rf_n5_d2,selected,0.9487179487179488,7.3596456634589345
+iris,2026,cd8dec4bf428e22e,accuracy_only,rf_n5_d2,selected,0.9487179487179488,7.3596456634589345
+breast_cancer,42,cb4b2ddd42ec085b,minimum_csc,dt_d2,selected,0.9227263090947636,4.0
+breast_cancer,42,cb4b2ddd42ec085b,accuracy_only,rf_n25_d2,selected,0.9303582785668858,12.739141209933177
+breast_cancer,1337,f773d00d8e9d4e50,minimum_csc,dt_d2,selected,0.9265422938308248,4.0
+breast_cancer,1337,f773d00d8e9d4e50,accuracy_only,gb_n10_d2,selected,0.9377782488870045,9.129283016944965
+breast_cancer,2026,fb8e6ce96a2cfeb7,minimum_csc,dt_d4,selected,0.9512401950392199,5.765101400930844
+breast_cancer,2026,fb8e6ce96a2cfeb7,accuracy_only,rf_n5_d5,selected,0.9698961204155183,11.482150749381901

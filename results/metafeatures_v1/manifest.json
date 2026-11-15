@@ -1,0 +1,28 @@
+{
+  "frozen": {
+    "results/scores.csv": "5ff110ebff0f8c50227fa4349e771070e32e96c7a3059696a0314dcdeca1d0df",
+    "results/summary.json": "0e11471823e07b6aa2179e7eab24dc7424e46e6bce255fa69363612d29bc8d17",
+    "iml_interpretability/csc.py": "fbcdfd81c35cfed94d67cd69542b498c0e5b595328e28e66fac5c552b88b66a9",
+    "iml_interpretability/tree_utils.py": "f8c78d5d55e1e20a671ed9f7fdd8e20d8f6104750cc6fa516f851af73e48f813",
+    "iml_interpretability/experiment.py": "a6b8a1c2d3bc928ab0f7773efb744b55bff84f354bd10f576260f3910a42a3fb",
+    "pyproject.toml": "512710d9e93f25aebc32ceff4e5f0a55732ebaa1755b392cf47044697f88fd9e",
+    "uv.lock": "c411c1846ab1d83da5797273f9e88b1d3930a7292f43eb441348a3455c09c408"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1"
+  },
+  "conditions": 63,
+  "candidates": 756,
+  "elapsed_seconds": 125.2151002999999,
+  "sources": {
+    "iml_interpretability\\metafeature_study.py": "f5fb11e09dec8482585717ab01e55644da1fe414fa36d270a92768bb31407f64",
+    "iml_interpretability\\metric_development.py": "3f6e44138f1efcc9971b29118857b0f30cd7dea73fbda50134ec4ad3d7ea862a",
+    "iml_interpretability\\path_metrics.py": "50b35dff02d5499f480a19e9ae68be4b6aeb48f31985890751bb22ceb2952d65",
+    "iml_interpretability\\dataset_variants.py": "681dc9e2e834a0b073ca1f69d06d681195bf081883bfe9e15778de076e3477aa",
+    "iml_interpretability\\models.py": "d9de0a3ef36433c81d790c1eab3adcaf6303e5ca9b4129a5f3c67eab2916ec2b",
+    "protocols\\remaining_tasks_v1.md": "0dce390390a55b5c814e306ec834d3a509bddc21644b61aa2bae31478b3147f6"
+  },
+  "test_evaluations": 0
+}

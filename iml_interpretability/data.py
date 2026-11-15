@@ -60,3 +60,13 @@ def load_titanic(data_home: str | Path = DATA_HOME) -> Dataset:
     X = pd.get_dummies(X, drop_first=True, dtype=float)
 
     return Dataset(name="titanic", X=X, y=y)
+
+
+def load_benchmarks():
+    """Offline numeric datasets; no fitted preprocessing is required."""
+    from sklearn.datasets import load_breast_cancer, load_iris
+
+    return [
+        Dataset(name, bunch.data, bunch.target)
+        for name, bunch in [("iris", load_iris(as_frame=True)), ("breast_cancer", load_breast_cancer(as_frame=True))]
+    ]

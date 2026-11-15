@@ -1,0 +1,4 @@
+replication,prediction_max_abs_error,csc,c_path,c_encoding,c_ensemble,n_trees,n_unique_trees,n_unique_splits,total_nodes,total_leaves,max_depth,tepl,budget_r5,budget_r7,budget_r9,mean_B,median_B,b90,b95,max_B,mean_L,metric_version,run_id
+1,0.0,4.584962500721156,1.0,2.0,1.584962500721156,3,3,3,9,6,1,3.0,0.0,0.0,0.0,3.0,3.0,3,3,3,3.0,CSC-1.0,2dcb122368fb2588
+2,0.0,4.584962500721156,1.0,2.0,1.584962500721156,6,3,3,18,12,1,6.0,0.0,0.0,0.0,3.0,3.0,3,3,3,6.0,CSC-1.0,2dcb122368fb2588
+4,0.0,4.584962500721156,1.0,2.0,1.584962500721156,12,3,3,36,24,1,12.0,0.0,0.0,0.0,3.0,3.0,3,3,3,12.0,CSC-1.0,2dcb122368fb2588

@@ -1,0 +1,13 @@
+dataset,seed,subset,n_pairs,total_nodes_agree,total_nodes_opposite,total_nodes_both_tie,total_nodes_csc_tie,total_nodes_baseline_tie,tepl_agree,tepl_opposite,tepl_both_tie,tepl_csc_tie,tepl_baseline_tie,metric_version,run_id
+breast_cancer,42,all_matched,34,33,1,0,0,0,30,4,0,0,0,CSC-1.0,391a04f341c53b14
+breast_cancer,42,near_best,21,20,1,0,0,0,18,3,0,0,0,CSC-1.0,391a04f341c53b14
+breast_cancer,1337,all_matched,40,38,2,0,0,0,36,3,0,0,1,CSC-1.0,391a04f341c53b14
+breast_cancer,1337,near_best,28,27,1,0,0,0,26,2,0,0,0,CSC-1.0,391a04f341c53b14
+breast_cancer,2026,all_matched,31,31,0,0,0,0,31,0,0,0,0,CSC-1.0,391a04f341c53b14
+breast_cancer,2026,near_best,10,10,0,0,0,0,10,0,0,0,0,CSC-1.0,391a04f341c53b14
+iris,42,all_matched,55,53,1,1,0,0,52,2,1,0,0,CSC-1.0,391a04f341c53b14
+iris,42,near_best,55,53,1,1,0,0,52,2,1,0,0,CSC-1.0,391a04f341c53b14
+iris,1337,all_matched,29,27,2,0,0,0,27,2,0,0,0,CSC-1.0,391a04f341c53b14
+iris,1337,near_best,1,1,0,0,0,0,1,0,0,0,0,CSC-1.0,391a04f341c53b14
+iris,2026,all_matched,29,26,2,1,0,0,25,3,1,0,0,CSC-1.0,391a04f341c53b14
+iris,2026,near_best,1,1,0,0,0,0,1,0,0,0,0,CSC-1.0,391a04f341c53b14

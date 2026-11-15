@@ -1,0 +1,145 @@
+{
+  "version": "completion_long",
+  "width": 1280,
+  "height": 720,
+  "slides": [
+    {
+      "title": "Developing a complexity metric for tree models",
+      "seconds": 55,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-01.png"
+    },
+    {
+      "title": "Start with Expected Path Length",
+      "seconds": 70,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-02.png"
+    },
+    {
+      "title": "Extend path length to the ensemble",
+      "seconds": 70,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-03.png"
+    },
+    {
+      "title": "Ensemble-adjusted complexity (EA)",
+      "seconds": 70,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-04.png"
+    },
+    {
+      "title": "A feature count can miss different rules",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-05.png"
+    },
+    {
+      "title": "The Minimum Description Length idea",
+      "seconds": 75,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-06.png"
+    },
+    {
+      "title": "Combine the ideas in CSC",
+      "seconds": 80,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-07.png"
+    },
+    {
+      "title": "Evaluate on trained models",
+      "seconds": 75,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-08.png"
+    },
+    {
+      "title": "First, check predictive performance",
+      "seconds": 70,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-09.png"
+    },
+    {
+      "title": "Then compare accuracy and CSC",
+      "seconds": 75,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-10.png"
+    },
+    {
+      "title": "Does CSC rank models differently?",
+      "seconds": 75,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-11.png"
+    },
+    {
+      "title": "What do the test results show?",
+      "seconds": 80,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-12.png"
+    },
+    {
+      "title": "The seven-test budget does not give one CSC cutoff",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-13.png"
+    },
+    {
+      "title": "Dataset properties and learned complexity",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-14.png"
+    },
+    {
+      "title": "Iris: training sample count",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-15.png"
+    },
+    {
+      "title": "Breast Cancer: training sample count",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-16.png"
+    },
+    {
+      "title": "Iris: available features",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-17.png"
+    },
+    {
+      "title": "Breast Cancer: available features",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-18.png"
+    },
+    {
+      "title": "Iris: training class balance",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-19.png"
+    },
+    {
+      "title": "Breast Cancer: training class balance",
+      "seconds": 65,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-20.png"
+    },
+    {
+      "title": "What the remaining experiments establish",
+      "seconds": 60,
+      "appendix": false,
+      "preview": "previews/completion_long/slide-21.png"
+    },
+    {
+      "title": "Appendix: components of the selected models",
+      "seconds": 45,
+      "appendix": true,
+      "preview": "previews/completion_long/slide-22.png"
+    },
+    {
+      "title": "Appendix: definitions and sources",
+      "seconds": 30,
+      "appendix": true,
+      "preview": "previews/completion_long/slide-23.png"
+    }
+  ]
+}

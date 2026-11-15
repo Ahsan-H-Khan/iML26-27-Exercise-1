@@ -1,0 +1,75 @@
+{
+  "all_pairs": 396,
+  "matched_pairs": 218,
+  "near_best_pairs": 116,
+  "near_best_relations": {
+    "total_nodes": {
+      "agree": 112,
+      "opposite": 3,
+      "both_tie": 1
+    },
+    "tepl": {
+      "agree": 108,
+      "opposite": 7,
+      "both_tie": 1
+    }
+  },
+  "reconciled_rows": 78,
+  "max_reconciliation_error": 0.0,
+  "selected_demands": [
+    {
+      "dataset": "iris",
+      "seed": 42,
+      "model": "dt_d2",
+      "b90": 2,
+      "b95": 2,
+      "mean_L": 1.6578947368421053,
+      "n_trees": 1
+    },
+    {
+      "dataset": "iris",
+      "seed": 1337,
+      "model": "rf_n5_d2",
+      "b90": 10,
+      "b95": 10,
+      "mean_L": 8.736842105263158,
+      "n_trees": 5
+    },
+    {
+      "dataset": "iris",
+      "seed": 2026,
+      "model": "rf_n5_d2",
+      "b90": 9,
+      "b95": 9,
+      "mean_L": 8.578947368421053,
+      "n_trees": 5
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 42,
+      "model": "dt_d2",
+      "b90": 2,
+      "b95": 2,
+      "mean_L": 2.0,
+      "n_trees": 1
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 1337,
+      "model": "dt_d2",
+      "b90": 2,
+      "b95": 2,
+      "mean_L": 2.0,
+      "n_trees": 1
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 2026,
+      "model": "dt_d4",
+      "b90": 4,
+      "b95": 4,
+      "mean_L": 2.9577464788732395,
+      "n_trees": 1
+    }
+  ]
+}

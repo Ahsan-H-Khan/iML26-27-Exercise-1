@@ -1,0 +1,56 @@
+{
+  "test": [
+    {
+      "dataset": "iris",
+      "seed": 42,
+      "model": "dt_d2",
+      "balanced_accuracy": 0.9487179487179488,
+      "csc": 3.2691730270369455,
+      "budget_r7": 0.0
+    },
+    {
+      "dataset": "iris",
+      "seed": 1337,
+      "model": "rf_n5_d2",
+      "balanced_accuracy": 1.0,
+      "csc": 7.633206385082202,
+      "budget_r7": 0.6578947368421053
+    },
+    {
+      "dataset": "iris",
+      "seed": 2026,
+      "model": "rf_n5_d2",
+      "balanced_accuracy": 0.9444444444444445,
+      "csc": 7.391224610827356,
+      "budget_r7": 0.5
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 42,
+      "model": "dt_d2",
+      "balanced_accuracy": 0.9228511530398322,
+      "csc": 4.0,
+      "budget_r7": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 1337,
+      "model": "dt_d2",
+      "balanced_accuracy": 0.9289308176100629,
+      "csc": 4.0,
+      "budget_r7": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 2026,
+      "model": "dt_d4",
+      "balanced_accuracy": 0.9216981132075472,
+      "csc": 5.779382894085576,
+      "budget_r7": 0.0
+    }
+  ],
+  "validation_budget_fraction": 0.5833333333333334,
+  "rounding_max_absolute_change": 0.09310940439148041,
+  "validation_rows": 72,
+  "test_rows": 6
+}

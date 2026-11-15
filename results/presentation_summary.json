@@ -1,0 +1,98 @@
+{
+  "validation_rows": 72,
+  "test_rows": 6,
+  "test_summary": [
+    {
+      "dataset": "iris",
+      "n_seeds": 3,
+      "mean_test_balanced_accuracy_percent": 96.43874643874645,
+      "sd_test_balanced_accuracy_pp": 3.0915291188334293,
+      "mean_test_csc": 6.0978680076488345,
+      "sd_test_csc": 2.4527077414099
+    },
+    {
+      "dataset": "breast_cancer",
+      "n_seeds": 3,
+      "mean_test_balanced_accuracy_percent": 92.44933612858141,
+      "sd_test_balanced_accuracy_pp": 0.3885954089528154,
+      "mean_test_csc": 4.593127631361859,
+      "sd_test_csc": 1.027327192891723
+    }
+  ],
+  "selections": [
+    {
+      "dataset": "iris",
+      "seed": 42,
+      "model": "dt_d2",
+      "label": "DT (depth 2)"
+    },
+    {
+      "dataset": "iris",
+      "seed": 1337,
+      "model": "rf_n5_d2",
+      "label": "RF (5 trees, depth 2)"
+    },
+    {
+      "dataset": "iris",
+      "seed": 2026,
+      "model": "rf_n5_d2",
+      "label": "RF (5 trees, depth 2)"
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 42,
+      "model": "dt_d2",
+      "label": "DT (depth 2)"
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 1337,
+      "model": "dt_d2",
+      "label": "DT (depth 2)"
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 2026,
+      "model": "dt_d4",
+      "label": "DT (depth 4)"
+    }
+  ],
+  "budget_count": 42,
+  "budget_percent": 58.333333333333336,
+  "budget_sensitivity": [
+    {
+      "dataset": "iris",
+      "n_validation": 36,
+      "count_r5": 24,
+      "count_r7": 21,
+      "count_r9": 17,
+      "percent_r5": 66.66666666666666,
+      "percent_r7": 58.333333333333336,
+      "percent_r9": 47.22222222222222
+    },
+    {
+      "dataset": "breast_cancer",
+      "n_validation": 36,
+      "count_r5": 23,
+      "count_r7": 21,
+      "count_r9": 18,
+      "percent_r5": 63.888888888888886,
+      "percent_r7": 58.333333333333336,
+      "percent_r9": 50.0
+    }
+  ],
+  "node_correlations": [
+    {
+      "dataset": "iris",
+      "baseline": "total_nodes",
+      "spearman": 0.9849097310663956
+    },
+    {
+      "dataset": "breast_cancer",
+      "baseline": "total_nodes",
+      "spearman": 0.9746637276732708
+    }
+  ],
+  "max_component_sum_error": 0.0,
+  "scores_sha256": "5ff110ebff0f8c50227fa4349e771070e32e96c7a3059696a0314dcdeca1d0df"
+}

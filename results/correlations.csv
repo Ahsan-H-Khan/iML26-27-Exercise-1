@@ -1,0 +1,13 @@
+dataset,baseline,spearman
+iris,n_trees,0.880517227561848
+iris,total_nodes,0.9849097310663956
+iris,tepl,0.9758330566962695
+iris,c_path,0.20598925289623005
+iris,c_encoding,0.9010636385508246
+iris,c_ensemble,0.880517227561848
+breast_cancer,n_trees,0.7850532168603765
+breast_cancer,total_nodes,0.9746637276732708
+breast_cancer,tepl,0.9402223256618653
+breast_cancer,c_path,0.36552031494439896
+breast_cancer,c_encoding,0.9822755623467505
+breast_cancer,c_ensemble,0.7850532168603765

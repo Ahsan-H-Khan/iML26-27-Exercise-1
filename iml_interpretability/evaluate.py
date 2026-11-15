@@ -46,6 +46,9 @@ def evaluate(
                 "accuracy": accuracy_score(y_test, fitted.predict(X_test)),
             }
             for metric in metrics:
-                row[metric.name] = metric.score(fitted, train)
+                context = (
+                    Dataset(dataset.name, X_test, y_test) if getattr(metric, "requires_reference", False) else train
+                )
+                row[metric.name] = metric.score(fitted, context)
             rows.append(row)
     return pd.DataFrame(rows)

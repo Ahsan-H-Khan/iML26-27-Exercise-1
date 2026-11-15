@@ -1,0 +1,7 @@
+fixture,profile,prediction_agreement,csc,c_path,c_encoding,c_ensemble,n_trees,n_unique_trees,n_unique_splits,total_nodes,total_leaves,max_depth,tepl,budget_r5,budget_r7,budget_r9,mean_B,median_B,b90,b95,max_B,mean_L,metric_version,run_id
+balanced,uniform,True,4.0,2.0,2.0,0.0,1,1,3,7,4,2,2.0,0.0,0.0,0.0,2.0,2.0,2,2,2,2.0,CSC-1.0,2dcb122368fb2588
+chain,uniform,True,4.25,2.25,2.0,0.0,1,1,3,7,4,3,2.25,0.0,0.0,0.0,2.25,2.5,3,3,3,2.25,CSC-1.0,2dcb122368fb2588
+balanced,early_exit,True,4.0,2.0,2.0,0.0,1,1,3,7,4,2,2.0,0.0,0.0,0.0,2.0,2.0,2,2,2,2.0,CSC-1.0,2dcb122368fb2588
+chain,early_exit,True,3.3,1.3,2.0,0.0,1,1,3,7,4,3,1.3,0.0,0.0,0.0,1.3,1.0,2,3,3,1.3,CSC-1.0,2dcb122368fb2588
+balanced,deep_exit,True,4.0,2.0,2.0,0.0,1,1,3,7,4,2,2.0,0.0,0.0,0.0,2.0,2.0,2,2,2,2.0,CSC-1.0,2dcb122368fb2588
+chain,deep_exit,True,4.85,2.85,2.0,0.0,1,1,3,7,4,3,2.85,0.0,0.0,0.0,2.85,3.0,3,3,3,2.85,CSC-1.0,2dcb122368fb2588

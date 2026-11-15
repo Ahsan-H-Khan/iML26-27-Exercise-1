@@ -21,6 +21,6 @@ dist/
 data/*
 !data/.gitkeep
 
-# Experiment results (scripts/run_experiment.py)
-results/*
-!results/.gitkeep
+# Keep reproducible numeric results, figures and presentation in the submission.
+.matplotlib/
+presentation/previews/pdf-*.png

@@ -18,6 +18,27 @@ def get_models(seed: int = 0) -> dict[str, ClassifierMixin]:
     :return: Mapping from model name to unfitted scikit-learn classifier.
     :rtype: dict[str, ClassifierMixin]
     """
-    return {
-        "decision_tree": DecisionTreeClassifier(max_depth=3, random_state=seed),
+    from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
+
+    models = {
+        f"dt_d{d}": DecisionTreeClassifier(max_depth=d, min_samples_leaf=2, random_state=seed) for d in (1, 2, 4, 8)
     }
+    models.update(
+        {
+            f"rf_n{n}_d{d}": RandomForestClassifier(
+                n_estimators=n, max_depth=d, min_samples_leaf=2, random_state=seed, n_jobs=1
+            )
+            for n in (5, 25)
+            for d in (2, 5)
+        }
+    )
+    models.update(
+        {
+            f"gb_n{n}_d{d}": GradientBoostingClassifier(
+                n_estimators=n, max_depth=d, learning_rate=0.1, random_state=seed
+            )
+            for n in (10, 50)
+            for d in (1, 2)
+        }
+    )
+    return models

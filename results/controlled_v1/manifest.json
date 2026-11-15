@@ -1,0 +1,130 @@
+{
+  "controls": {
+    "stage": "controls",
+    "metric_version": "CSC-1.0",
+    "protocol_sha256": "2b1b317b41c511cae2543bacc6ac91bc987fdddf140114541c972b2bbab1672b",
+    "baseline_scores_sha256": "5ff110ebff0f8c50227fa4349e771070e32e96c7a3059696a0314dcdeca1d0df",
+    "source_sha256": {
+      "iml_interpretability/__init__.py": "db32ecc97ad766669c903260093b7390d90d90fe1b6deeb41a579e61f918fb18",
+      "iml_interpretability/controlled_fixtures.py": "f051da351df6a80e0e400576ba063394f066c9b9b1a52305710ae48a9b997106",
+      "iml_interpretability/controlled_studies.py": "f9f3a3963fba1d5a0645226fc363d0e1e8966367bbd38f4de938d61d6d58961a",
+      "iml_interpretability/csc.py": "fbcdfd81c35cfed94d67cd69542b498c0e5b595328e28e66fac5c552b88b66a9",
+      "iml_interpretability/data.py": "bc113c644d53baaed76e0bf125526a25115cfdcfc8615e419dfd4cd3fb7926d8",
+      "iml_interpretability/evaluate.py": "94f2f12aea519f7f3e24395d8601b329a979bc47af4166316298c1fda5397d4f",
+      "iml_interpretability/experiment.py": "a6b8a1c2d3bc928ab0f7773efb744b55bff84f354bd10f576260f3910a42a3fb",
+      "iml_interpretability/metric.py": "6e39c4c3f81b70286e1460ecdd3bce8d393003752259617981eebe8e4fb72162",
+      "iml_interpretability/models.py": "d9de0a3ef36433c81d790c1eab3adcaf6303e5ca9b4129a5f3c67eab2916ec2b",
+      "iml_interpretability/tree_utils.py": "f8c78d5d55e1e20a671ed9f7fdd8e20d8f6104750cc6fa516f851af73e48f813",
+      "scripts/analyze_matched_performance.py": "b92b4f340b16766099ef6e0b65170ffa0729eae1187b19b5d486b63ace373e3d",
+      "scripts/build_pdf.py": "f93fe532e00d86b88d1a196cd13b6fc90ef5c11ce158a0a8c978d827453f5c0b",
+      "scripts/collect_reference_demands.py": "1f5caeb458dfdbdd3de337cd63bb0a49f8ba4570980e8929cf3af4cb3e106296",
+      "scripts/plot_controlled_results.py": "b36dc5f9706d06be62154a3a6e9be4febb727eb4609fc99ce87798aeadba2004",
+      "scripts/plot_results.py": "6a7962abd72ed7f7c94b1d29943769419ebd324f1a73bd6477fe23c597c549f9",
+      "scripts/run_controlled_comparisons.py": "dd379cca94afc8d711cb73b8aec7b9eea9a5a1479134467a57586854d67dd30f",
+      "scripts/run_experiment.py": "8eda52d3a5e4654ce1bd384b64c683875f3f588de7b06cf68896757d7dda1d33"
+    },
+    "package_versions": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scikit-learn": "1.9.1"
+    },
+    "python": "3.13.9",
+    "run_id": "2dcb122368fb2588"
+  },
+  "matched_pairs": {
+    "stage": "matched_pairs",
+    "metric_version": "CSC-1.0",
+    "protocol_sha256": "2b1b317b41c511cae2543bacc6ac91bc987fdddf140114541c972b2bbab1672b",
+    "baseline_scores_sha256": "5ff110ebff0f8c50227fa4349e771070e32e96c7a3059696a0314dcdeca1d0df",
+    "source_sha256": {
+      "iml_interpretability/__init__.py": "db32ecc97ad766669c903260093b7390d90d90fe1b6deeb41a579e61f918fb18",
+      "iml_interpretability/controlled_fixtures.py": "f051da351df6a80e0e400576ba063394f066c9b9b1a52305710ae48a9b997106",
+      "iml_interpretability/controlled_studies.py": "f9f3a3963fba1d5a0645226fc363d0e1e8966367bbd38f4de938d61d6d58961a",
+      "iml_interpretability/csc.py": "fbcdfd81c35cfed94d67cd69542b498c0e5b595328e28e66fac5c552b88b66a9",
+      "iml_interpretability/data.py": "bc113c644d53baaed76e0bf125526a25115cfdcfc8615e419dfd4cd3fb7926d8",
+      "iml_interpretability/evaluate.py": "94f2f12aea519f7f3e24395d8601b329a979bc47af4166316298c1fda5397d4f",
+      "iml_interpretability/experiment.py": "a6b8a1c2d3bc928ab0f7773efb744b55bff84f354bd10f576260f3910a42a3fb",
+      "iml_interpretability/metric.py": "6e39c4c3f81b70286e1460ecdd3bce8d393003752259617981eebe8e4fb72162",
+      "iml_interpretability/models.py": "d9de0a3ef36433c81d790c1eab3adcaf6303e5ca9b4129a5f3c67eab2916ec2b",
+      "iml_interpretability/tree_utils.py": "f8c78d5d55e1e20a671ed9f7fdd8e20d8f6104750cc6fa516f851af73e48f813",
+      "scripts/analyze_matched_performance.py": "b92b4f340b16766099ef6e0b65170ffa0729eae1187b19b5d486b63ace373e3d",
+      "scripts/build_pdf.py": "f93fe532e00d86b88d1a196cd13b6fc90ef5c11ce158a0a8c978d827453f5c0b",
+      "scripts/collect_reference_demands.py": "1f5caeb458dfdbdd3de337cd63bb0a49f8ba4570980e8929cf3af4cb3e106296",
+      "scripts/plot_controlled_results.py": "b36dc5f9706d06be62154a3a6e9be4febb727eb4609fc99ce87798aeadba2004",
+      "scripts/plot_results.py": "6a7962abd72ed7f7c94b1d29943769419ebd324f1a73bd6477fe23c597c549f9",
+      "scripts/run_controlled_comparisons.py": "dd379cca94afc8d711cb73b8aec7b9eea9a5a1479134467a57586854d67dd30f",
+      "scripts/run_experiment.py": "8eda52d3a5e4654ce1bd384b64c683875f3f588de7b06cf68896757d7dda1d33"
+    },
+    "package_versions": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scikit-learn": "1.9.1"
+    },
+    "python": "3.13.9",
+    "run_id": "391a04f341c53b14"
+  },
+  "reference_demands": {
+    "stage": "reference_demands",
+    "metric_version": "CSC-1.0",
+    "protocol_sha256": "2b1b317b41c511cae2543bacc6ac91bc987fdddf140114541c972b2bbab1672b",
+    "baseline_scores_sha256": "5ff110ebff0f8c50227fa4349e771070e32e96c7a3059696a0314dcdeca1d0df",
+    "source_sha256": {
+      "iml_interpretability/__init__.py": "db32ecc97ad766669c903260093b7390d90d90fe1b6deeb41a579e61f918fb18",
+      "iml_interpretability/controlled_fixtures.py": "f051da351df6a80e0e400576ba063394f066c9b9b1a52305710ae48a9b997106",
+      "iml_interpretability/controlled_studies.py": "f9f3a3963fba1d5a0645226fc363d0e1e8966367bbd38f4de938d61d6d58961a",
+      "iml_interpretability/csc.py": "fbcdfd81c35cfed94d67cd69542b498c0e5b595328e28e66fac5c552b88b66a9",
+      "iml_interpretability/data.py": "bc113c644d53baaed76e0bf125526a25115cfdcfc8615e419dfd4cd3fb7926d8",
+      "iml_interpretability/evaluate.py": "94f2f12aea519f7f3e24395d8601b329a979bc47af4166316298c1fda5397d4f",
+      "iml_interpretability/experiment.py": "a6b8a1c2d3bc928ab0f7773efb744b55bff84f354bd10f576260f3910a42a3fb",
+      "iml_interpretability/metric.py": "6e39c4c3f81b70286e1460ecdd3bce8d393003752259617981eebe8e4fb72162",
+      "iml_interpretability/models.py": "d9de0a3ef36433c81d790c1eab3adcaf6303e5ca9b4129a5f3c67eab2916ec2b",
+      "iml_interpretability/tree_utils.py": "f8c78d5d55e1e20a671ed9f7fdd8e20d8f6104750cc6fa516f851af73e48f813",
+      "scripts/analyze_matched_performance.py": "b92b4f340b16766099ef6e0b65170ffa0729eae1187b19b5d486b63ace373e3d",
+      "scripts/build_pdf.py": "f93fe532e00d86b88d1a196cd13b6fc90ef5c11ce158a0a8c978d827453f5c0b",
+      "scripts/collect_reference_demands.py": "1f5caeb458dfdbdd3de337cd63bb0a49f8ba4570980e8929cf3af4cb3e106296",
+      "scripts/plot_controlled_results.py": "b36dc5f9706d06be62154a3a6e9be4febb727eb4609fc99ce87798aeadba2004",
+      "scripts/plot_results.py": "6a7962abd72ed7f7c94b1d29943769419ebd324f1a73bd6477fe23c597c549f9",
+      "scripts/run_controlled_comparisons.py": "dd379cca94afc8d711cb73b8aec7b9eea9a5a1479134467a57586854d67dd30f",
+      "scripts/run_experiment.py": "8eda52d3a5e4654ce1bd384b64c683875f3f588de7b06cf68896757d7dda1d33"
+    },
+    "package_versions": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scikit-learn": "1.9.1"
+    },
+    "python": "3.13.9",
+    "run_id": "32b49ca8c65b2465"
+  },
+  "reporting": {
+    "stage": "reporting",
+    "metric_version": "CSC-1.0",
+    "protocol_sha256": "2b1b317b41c511cae2543bacc6ac91bc987fdddf140114541c972b2bbab1672b",
+    "baseline_scores_sha256": "5ff110ebff0f8c50227fa4349e771070e32e96c7a3059696a0314dcdeca1d0df",
+    "source_sha256": {
+      "iml_interpretability/__init__.py": "db32ecc97ad766669c903260093b7390d90d90fe1b6deeb41a579e61f918fb18",
+      "iml_interpretability/controlled_fixtures.py": "f051da351df6a80e0e400576ba063394f066c9b9b1a52305710ae48a9b997106",
+      "iml_interpretability/controlled_studies.py": "f9f3a3963fba1d5a0645226fc363d0e1e8966367bbd38f4de938d61d6d58961a",
+      "iml_interpretability/csc.py": "fbcdfd81c35cfed94d67cd69542b498c0e5b595328e28e66fac5c552b88b66a9",
+      "iml_interpretability/data.py": "bc113c644d53baaed76e0bf125526a25115cfdcfc8615e419dfd4cd3fb7926d8",
+      "iml_interpretability/evaluate.py": "94f2f12aea519f7f3e24395d8601b329a979bc47af4166316298c1fda5397d4f",
+      "iml_interpretability/experiment.py": "a6b8a1c2d3bc928ab0f7773efb744b55bff84f354bd10f576260f3910a42a3fb",
+      "iml_interpretability/metric.py": "6e39c4c3f81b70286e1460ecdd3bce8d393003752259617981eebe8e4fb72162",
+      "iml_interpretability/models.py": "d9de0a3ef36433c81d790c1eab3adcaf6303e5ca9b4129a5f3c67eab2916ec2b",
+      "iml_interpretability/tree_utils.py": "f8c78d5d55e1e20a671ed9f7fdd8e20d8f6104750cc6fa516f851af73e48f813",
+      "scripts/analyze_matched_performance.py": "b92b4f340b16766099ef6e0b65170ffa0729eae1187b19b5d486b63ace373e3d",
+      "scripts/build_pdf.py": "f93fe532e00d86b88d1a196cd13b6fc90ef5c11ce158a0a8c978d827453f5c0b",
+      "scripts/collect_reference_demands.py": "1f5caeb458dfdbdd3de337cd63bb0a49f8ba4570980e8929cf3af4cb3e106296",
+      "scripts/plot_controlled_results.py": "a60dae90508aab96d25d0e0f89c1849f7db3ccc0524858aaba051528dc1a0c97",
+      "scripts/plot_results.py": "6a7962abd72ed7f7c94b1d29943769419ebd324f1a73bd6477fe23c597c549f9",
+      "scripts/run_controlled_comparisons.py": "dd379cca94afc8d711cb73b8aec7b9eea9a5a1479134467a57586854d67dd30f",
+      "scripts/run_experiment.py": "8eda52d3a5e4654ce1bd384b64c683875f3f588de7b06cf68896757d7dda1d33"
+    },
+    "package_versions": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scikit-learn": "1.9.1"
+    },
+    "python": "3.13.9",
+    "run_id": "0addcfd939f5aa24"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "completion_short",
+  "width": 1280,
+  "height": 720,
+  "slides": [
+    {
+      "title": "CSC: complexity after checking accuracy",
+      "seconds": 40,
+      "appendix": false,
+      "preview": "previews/completion_short/slide-01.png"
+    },
+    {
+      "title": "Prediction quality and the complexity trade-off",
+      "seconds": 55,
+      "appendix": false,
+      "preview": "previews/completion_short/slide-02.png"
+    },
+    {
+      "title": "The threshold investigation",
+      "seconds": 40,
+      "appendix": false,
+      "preview": "previews/completion_short/slide-03.png"
+    },
+    {
+      "title": "Training examples and model complexity",
+      "seconds": 45,
+      "appendix": false,
+      "preview": "previews/completion_short/slide-04.png"
+    },
+    {
+      "title": "Feature removal can lose predictive information",
+      "seconds": 45,
+      "appendix": false,
+      "preview": "previews/completion_short/slide-05.png"
+    },
+    {
+      "title": "Class imbalance needs a size-matched comparison",
+      "seconds": 45,
+      "appendix": false,
+      "preview": "previews/completion_short/slide-06.png"
+    },
+    {
+      "title": "What the project establishes",
+      "seconds": 30,
+      "appendix": false,
+      "preview": "previews/completion_short/slide-07.png"
+    }
+  ]
+}
