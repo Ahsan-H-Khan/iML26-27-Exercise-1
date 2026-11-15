@@ -134,3 +134,5 @@ uv run pytest
 The pilot completes one dataset/seed; the full run uses content-addressed caches. A changed source, protocol, dataset, package version or condition input invalidates reuse. New outputs are isolated in results/threshold_v1 and results/metafeatures_v1. condition_manifest.json saves training, validation and test IDs, class counts, feature identities, aliases and hashes. fixed_configuration_summary.csv and imbalance_paired_comparisons.csv support comparisons without selection changes. selected_endpoint_comparisons.csv records switches and component changes.
 
 All original result files, the metric-development-v2 output directory and the CSC implementation are preserved. No course submission has been made.
+
+##AI STATEMENT: Codex was used to write the scripts and debugging only. 
