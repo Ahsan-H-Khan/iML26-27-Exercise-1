@@ -13,7 +13,7 @@ This project develops Cognitive-Structural Complexity (CSC), then evaluates it o
 - [Locked protocol](protocols/metric_development_v2.md)
 - [Definitions and source attribution](docs/metric_development_sources.md)
 
-The submission deck has seven slides targeting 300 seconds. The long deck retains the formula-development story and adds the threshold and dataset-property findings. Both have speaker notes; rehearse to confirm delivery time.
+
 
 ## How the metric developed
 
